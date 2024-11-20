@@ -1,7 +1,8 @@
 name: IPTV-Go
 
 on:
-  push:
+  workflow_dispatch:
+  #push:
     branches: ["main"]
     paths:
       - '**.go'    
